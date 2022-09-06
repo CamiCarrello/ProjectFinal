@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quatro em Linha</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Signika:700,300,600"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="ConnectFour.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>
+          <span>Q</span><span>u</span><span>a</span><span>t</span><span>r</span
+          ><span>o</span><span> </span><span>e</span><span>m</span><span> </span
+          ><span>L</span><span>i</span><span>n</span><span>h</span
+          ><span>a</span>
+        </h1>
+      </div>
+      <div id="timer" class="timer">00 : 00 : 00</div>
+    </header>
+    <main>
+      <p id="playerOneNome"></p>
+      <p id="playerTwoNome"></p>
+      <h3></h3>
+      <div id="popUp">
+        <h2>text</h2>
+        <input
+          type="button"
+          value="play again"
+          onClick="location.href=location.href"
+          id="playAgain"
+        />
+        <input
+          type="button"
+          value="menu"
+          onClick="location.href='../index.html'"
+          id="menuButton"
+        />
+      </div>
+      <span class="player"></span>
+      <div class="tableBackground">
+        <table class="table"></table>
+      </div>
+    </main>
+    <script src="ConnectFour.js"></script>
+  </body>
+</html>

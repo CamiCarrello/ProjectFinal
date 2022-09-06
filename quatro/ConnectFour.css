@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(249, 250, 253);
+}
+
+h1 {
+    margin-top: -0.1em;
+    font:bold 7.5vw/1.6 'Signika', sans-serif;
+    user-select: none;
+    text-align: center;
+}
+
+span:nth-child(4n) { color:hsl(109, 44%, 80%); text-shadow:1px 1px hsl(110, 19%, 64%), 2px 2px hsl(110, 45%, 84%), 3px 3px hsl(111, 43%, 87%), 4px 4px hsl(111, 43%, 87%); }
+span:nth-child(4n-1) { color:hsl(217, 44%, 70%); text-shadow:1px 1px hsl(217, 23%, 56%), 2px 2px hsl(217, 44%, 70%), 3px 3px hsl(217, 44%, 63%), 4px 4px hsl(217, 44%, 63%); }
+span:nth-child(4n-2) { color:hsl(172, 44%, 69%); text-shadow:1px 1px hsl(171, 24%, 55%), 2px 2px hsl(171, 25%, 71%), 3px 3px hsl(172, 9%, 46%), 4px 4px hsl(172, 9%, 46%); }
+span:nth-child(4n-3) { color:hsl(248, 79%, 82%); text-shadow:1px 1px hsl(248, 79%, 67%), 2px 2px hsl(248, 79%, 73%), 3px 3px hsl(248, 79%, 78%), 4px 4px hsl(248, 79%, 67%); }
+
+h2 {
+    font:bold 3.5vw/1.6 'Signika', sans-serif;
+    text-align: center;
+    line-height: 2em;
+
+}
+
+h3 {
+    text-align: center;
+    font-family: 'font-mono', 'sans-serif';
+    margin-top: -1.5em;
+    font-size: 2em;
+    color: hsl(217, 44%, 70%);
+}
+
+#playerOneNome {
+    display: inline-block;
+    text-align: center;
+    width: 7em;
+    height: 3em;
+    font: bold 2em 'Signika', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, rgba(143,212,203) 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 0.18em;
+    line-height: 3em;
+    box-shadow: 0.5em 0 0.5em rgb(113, 168, 160), 0.2em 0.1em 0.1em rgb(107, 128, 125);
+    outline: transparent;
+    border-radius: 30%;
+    margin-top: -200%;
+    margin-bottom: 2%;
+    margin-left: 6em;
+}
+
+#playerTwoNome {
+    display: inline-block;
+    text-align: center;
+    width: 7em;
+    height: 3em;
+    font: bold 2em 'Signika', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, rgba(183, 173, 245) 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 0.18em;
+    line-height: 3em;
+    box-shadow: 0.5em 0 0.5em rgb(146, 132, 241), 0.2em 0.1em 0.1em rgb(122, 104, 237);
+    outline: transparent;
+    border-radius: 30%;
+    margin-top: -200%;
+    margin-bottom: 2%;
+    margin-left: 19em;
+}
+
+#timer {
+    text-align: center;
+    font-family: 'Signika', monospace;
+    font-size: 1.3em;
+    color: rgb(117, 137, 169);
+    text-shadow: 1em 1em 0.5em.5em white;
+    margin-bottom: 1em;
+}
+
+#popUp {
+    margin-top: 13.2em;
+    margin-left: 26.2em;
+    background-color: hsl(217, 23%, 56%, 90%);
+    width: 39em;
+    height: 20em;
+    padding-top: 2em;
+    border-radius: 10%;
+    position: absolute;
+}
+
+#playAgain {
+    font: bold 1em 'Signika', sans-serif;
+    display: block;
+    width: 10em;
+    height: 4em;
+    margin-left: 14em;
+    border-radius: 2em;
+    border: 0.5em solid hsl(217, 44%, 70%);
+    color: rgb(64, 64, 64);
+    text-shadow: 0.1em 0.05em 0.05em hsl(217, 44%, 70%);
+}
+
+#playAgain:hover {
+    font: bold 1em 'Signika', sans-serif;
+    display: block;
+    width: 10em;
+    height: 4em;
+    margin-left: 14em;
+    border-radius: 2em;
+    border: 0.5em solid white;
+    color: white;
+    background-color: hsl(217, 44%, 70%, 10%);
+}
+
+#menuButton {
+    font: bold 1em 'Signika', sans-serif;
+    width: 10em;
+    height: 4em;
+    margin-top: 0.5em;
+    margin-left: 14em;
+    border-radius: 2em;
+    border: 0.5em solid hsl(217, 44%, 70%);
+    color: rgb(64, 64, 64);
+    text-shadow: 0.1em 0.05em 0.05em hsl(217, 44%, 70%);
+}
+
+#menuButton:hover {
+    font: bold 1em 'Signika', sans-serif;
+    width: 10em;
+    height: 4em;
+    margin-top: 0.5em;
+    margin-left: 14em;
+    border-radius: 2em;
+    border: 0.5em solid white;
+    color: white;
+    background-color: hsl(217, 44%, 70%, 10%);
+}
+
+
+.table button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 0.2em solid lightslategray;
+    margin: 0.5em;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 40em;
+}
+
+td {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0.0625em hsl(217, 23%, 56%);
+    padding: 0.6em;
+}
+
+tr:first-child td:first-child { border-top-left-radius: 0.6em; }
+tr:first-child td:last-child { border-top-right-radius: 0.6em; }
+
+tr:last-child td:first-child { border-bottom-left-radius: 0.6em; }
+tr:last-child td:last-child { border-bottom-right-radius: 0.6em; }
+tr:first-child td { border-top-style: solid; }
+tr td:first-child { border-left-style: solid; }
+
+.tableBackground {
+    margin: auto;
+    margin-top: 3.9em;
+    text-align: center;
+    background: linear-gradient(20deg, transparent 5%, hsl(217, 44%, 70%));
+    width: 44em;
+    height: 39em;
+    padding-top: 2em;
+    border-radius: 10%;
+}

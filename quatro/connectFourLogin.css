@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(249, 250, 253);
+}
+
+h1 {
+    margin-top: -0.1em;
+    margin-bottom: 0.35em;
+    font: bold 7.5vw/1.6 'Signika', sans-serif;
+    user-select: none;
+    text-align: center;
+}
+
+span:nth-child(4n) { color:hsl(109, 44%, 80%); text-shadow:1px 1px hsl(110, 19%, 64%), 2px 2px hsl(110, 45%, 84%), 3px 3px hsl(111, 43%, 87%), 4px 4px hsl(111, 43%, 87%); }
+span:nth-child(4n-1) { color:hsl(217, 44%, 70%); text-shadow:1px 1px hsl(217, 23%, 56%), 2px 2px hsl(217, 44%, 70%), 3px 3px hsl(217, 44%, 63%), 4px 4px hsl(217, 44%, 63%); }
+span:nth-child(4n-2) { color:hsl(172, 44%, 69%); text-shadow:1px 1px hsl(171, 24%, 55%), 2px 2px hsl(171, 25%, 71%), 3px 3px hsl(172, 9%, 46%), 4px 4px hsl(172, 9%, 46%); }
+span:nth-child(4n-3) { color:hsl(248, 79%, 82%); text-shadow:1px 1px hsl(248, 79%, 67%), 2px 2px hsl(248, 79%, 73%), 3px 3px hsl(248, 79%, 78%), 4px 4px hsl(248, 79%, 67%); }
+
+.player1, .player2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2em;
+    color: hsl(217, 44%, 30%);
+    font: bold 1.5vw/1.6 'Signika', sans-serif;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10em;
+    padding: 1em;
+    width: 6em;
+    font: bold 1em 'Signika', sans-serif;
+    border: 0.25em solid hsl(217, 44%, 70%);
+
+}
+
+.playersName1, .playersName2 {
+    margin-left: 1em;
+    text-align: center;
+    border-radius: 0.5em;
+    border: 0.2em solid hsl(217, 44%, 70%);
+}
+
+form {
+    background-color: hsl(217, 44%, 70%, 50%);
+    width: 60%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    border-radius: 6em;
+    border: 0.4em solid hsl(217, 44%, 70%, 50%);
+}
