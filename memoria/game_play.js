@@ -126,7 +126,7 @@ function matches() {
       currentTime: currentTime,
       tempo: timing,
     };
-    let objectGame = localStorage.getItem("storeObjString");
+    let objectGame = localStorage.getItem("storeObjectAsString");
     let arrayStorage = [];
     if (objectGame !== null) {
       const storeAsArray = JSON.parse(objectGame);
@@ -135,7 +135,7 @@ function matches() {
     }
     arrayStorage.push(objectGameStorage);
     const storeObjString = JSON.stringify(arrayStorage);
-    localStorage.setItem("storeObjString", storeObjString);
+    localStorage.setItem("storeObjectAsString", storeObjString);
   }
 }
 
