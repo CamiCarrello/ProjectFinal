@@ -74,7 +74,7 @@ function createBoard() {
 
 //ver se há pares
 function matches() {
-  const cards = $("<img>");
+  const cards = $("img");
   const optionOneId = cardsChosenId[0];
   const optionTwoId = cardsChosenId[1];
   const red = "imgs/red.png";
