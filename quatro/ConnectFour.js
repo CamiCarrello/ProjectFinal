@@ -186,7 +186,7 @@ function createStuff() {
                 "timeKey": time
             }
 
-            let getObject = localStorage.getItem("storeObjString");
+            let getObject = localStorage.getItem("storeObjectAsString");
 
             let arrayStorage = [];
 
@@ -197,9 +197,9 @@ function createStuff() {
 
             arrayStorage.push(objects)
 
-            const storeObjString = JSON.stringify(arrayStorage);
+            const storeObjectAsString = JSON.stringify(arrayStorage);
 
-            localStorage.setItem("storeObjString", storeObjString);
+            localStorage.setItem("storeObjectAsString", storeObjectAsString);
     }
 
     let player = 1;
