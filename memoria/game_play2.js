@@ -93,19 +93,22 @@ function matches() {
   const cards = $("img");
   const optionOneId = cardsChosenId[0];
   const optionTwoId = cardsChosenId[1];
+  const red = "imgs/red.png";
+  const pink = "imgs/pink.png";
+  
   if (optionOneId == optionTwoId) {
-    $(cards[optionOneId]).attr("src", "imgs/red.png");
-    $(cards[optionTwoId]).attr("src", "imgs/red.png");
+    $(cards[optionOneId]).attr("src", red);
+    $(cards[optionTwoId]).attr("src", red);
     alert("You have clicked the same image!");
   } else if (cardsChosen[0] === cardsChosen[1]) {
-    $(cards[optionOneId]).attr("src", "imgs/pink.png");
-    $(cards[optionTwoId]).attr("src", "imgs/pink.png");
+    $(cards[optionOneId]).attr("src", pink);
+    $(cards[optionTwoId]).attr("src", pink);
     $(cards[optionOneId]).off("click", flipCards);
     $(cards[optionTwoId]).off("click", flipCards);
     cardsWon.push(cardsChosen);
   } else {
-    $(cards[optionOneId]).attr("src", "imgs/red.png");
-    $(cards[optionTwoId]).attr("src", "imgs/red.png");
+    $(cards[optionOneId]).attr("src", red);
+    $(cards[optionTwoId]).attr("src", red);
   }
   cardsChosen = [];
   cardsChosenId = [];
