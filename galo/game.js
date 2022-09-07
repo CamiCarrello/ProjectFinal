@@ -144,15 +144,15 @@ function finishGame() {
     currentTimeKey: currentTime,
     currentDurationKey: timerContent,
   };
-  let stringObj = localStorage.getItem("storeObjString");
+  let stringObj = localStorage.getItem("storeObjectAsString");
   let arrayStorage = [];
   if (stringObj !== null) {
     const storeAsArray = JSON.parse(stringObj);
     arrayStorage = storeAsArray;
   }
   arrayStorage.push(objectStorage);
-  const storeObjString = JSON.stringify(arrayStorage);
-  localStorage.setItem("storeObjString", storeObjString);
+  const storeObjectAsString = JSON.stringify(arrayStorage);
+  localStorage.setItem("storeObjectAsString", storeObjectAsString);
 }
 
 function getResult() {
