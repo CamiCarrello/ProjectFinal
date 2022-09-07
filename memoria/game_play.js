@@ -134,8 +134,8 @@ function matches() {
       arrayStorage = storeAsArray;
     }
     arrayStorage.push(objectGameStorage);
-    const storeObjString = JSON.stringify(arrayStorage);
-    localStorage.setItem("storeObjectAsString", storeObjString);
+    const storeObjectAsString = JSON.stringify(arrayStorage);
+    localStorage.setItem("storeObjectAsString", storeObjectAsString);
   }
 }
 
